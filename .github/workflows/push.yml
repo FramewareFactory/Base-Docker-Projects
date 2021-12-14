@@ -19,7 +19,6 @@ jobs:
       with:
         context: python-base-development
         push: true
-        repository: python-base-development
         tags: framewarefactory/python-base-development:latest
 
   build-and-push-deployment:
@@ -40,5 +39,4 @@ jobs:
       with:
         context: python-base-deployment
         push: true
-        repository: python-base-deployment
         tags: framewarefactory/python-base-deployment:latest
