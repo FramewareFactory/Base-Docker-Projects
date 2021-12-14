@@ -20,4 +20,4 @@ jobs:
         context: python-base-deployment
         push: true
         repository: python-base-deployment
-        tags: FramewareFactory/python-base-development:latest
+        tags: framewarefactory/python-base-development:latest
