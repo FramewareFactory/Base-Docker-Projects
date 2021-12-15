@@ -2,7 +2,7 @@ FROM python:3.8-slim-buster
 
 ENV PYTHONUNBUFFERED 1
 
-ADD ./../libs/instantclient-basic-linux.x64-21.4.zip instantclient-basic-linux.x64.zip
+ADD libs/instantclient-basic-linux.x64-21.4.zip instantclient-basic-linux.x64.zip
 
 RUN apt-get update \
   # dependencies for building Python packages
